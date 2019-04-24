@@ -1,0 +1,9 @@
+.maincube{
+    background-color: black;
+    height: 800px;
+    width: 800px;
+}
+
+.second {
+    position: relative;
+}
