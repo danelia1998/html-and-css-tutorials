@@ -1,25 +1,16 @@
-.badge {
-    width: 400px;
-    height: 400px;
-    background-color: bisque;
-    margin-bottom: 60px;
-    border-radius: 15px;
-    position: relative;
+.message {
+    position:absolute;
+    top:40px;
+    right: 40px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid grey;
 }
 
-.badge .label{
-    
-    
-    background-color: royalblue;
-    color: white;
+.message a{
+    text-decoration: none;
+    color:grey;
     position: absolute;
-    text-align: center;
-    right: 0;
-    top: 0;
-    transform: translateX(50%) translateY(-50%);
-    border-radius: 30px;
-    padding: 20px 20px;
-    border: 4px solid white
-
-
+    top: 10px;
+    right: 10px;
 }
