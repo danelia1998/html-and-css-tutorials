@@ -15,21 +15,14 @@ header{
     width: 100%;
 }
 
-.col1, .col2{
-    width: 285px;
-}
-.col1{
+.col1, .col2, .col3{
+    width: 180px;
     float: left;
+    margin-right: 30px;
 }
-.col2{
-    float: right;
-}
-.col3{
-    clear: both;
-    width: 40%;
-    margin: 0 auto 30px;
-}
-
-main div:nth-child(3){
+.row .cell:last-child{
     margin-right: 0;
+}
+footer{
+    clear: both;
 }
