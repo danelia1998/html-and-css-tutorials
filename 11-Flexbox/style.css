@@ -10,10 +10,12 @@
 .cell{
     min-height: 50px;
     background-color: blue;
-    width: 50px;
-    margin: 20px;
+    margin: 10px;
+}
+.col-3, .col-1{
+    flex-grow: 1;
 }
 
-.header, .col-1, .col-2, .col-3, .footer{
-    flex-grow: 1;
+.col-2{
+    flex-grow: 2;
 }
