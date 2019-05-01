@@ -1,0 +1,26 @@
+.lobster {
+    font-family: 'Lobster';
+    
+}
+
+.Ptsans-Normal-400{
+    font-family: 'PT Sans';
+}
+
+.Ptsans-Normal-700{
+    font-family: 'PT Sans';
+    font-weight: 700;
+}
+
+.Ptsans-Italic-400{
+    font-family: 'PT Sans';
+    font-style: italic;
+}
+
+.Ptsans-Italic-700{
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-style: italic;
+}
+
+
