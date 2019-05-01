@@ -1,26 +1,78 @@
-.lobster {
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 680px;
+    margin: auto;
+    margin-top: 20px;
+}
+.poster{
+    margin-bottom: 14px;
+}
+
+article{
+    border: 1px solid #F5F5F5;
+    padding: 20px;
+}
+header{
+    border-bottom: 1px solid #ECF0F1;
+    margin-bottom: 13px;
+    padding-bottom: 12px;
+}
+article .poster{
+    width: 640px;
+    height: 350px;
+    background-color: #A1B1BC;
+}
+.content header h3{
     font-family: 'Lobster';
+    font-size: 24px;
+    line-height: 30px;
+    color: #21C2F8;
+    margin-bottom: 4px;
+}
+
+.content header p{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    word-spacing: -0.3px;
     
+    color: #A1B1BC;
 }
 
-.Ptsans-Normal-400{
+.content .text p{
     font-family: 'PT Sans';
+    font-size: 14px;
+    color: #A1B1BC;
+    letter-spacing: -0.063px;
+    line-height: 24.9px;
+    margin-bottom: 15px;
 }
 
-.Ptsans-Normal-700{
+.content .text a{
     font-family: 'PT Sans';
-    font-weight: 700;
+    font-size: 14px;
+    line-height: -4px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #21C2F8;
+}
+.content header p span::after{
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #EBEBEB;
+    display: inline-block;
+    margin-left: 11px;
+    margin-right: 11px;
+    vertical-align: middle;
 }
 
-.Ptsans-Italic-400{
-    font-family: 'PT Sans';
-    font-style: italic;
+.content header p span:last-child::after{
+    display: none;
 }
-
-.Ptsans-Italic-700{
-    font-family: 'PT Sans';
-    font-weight: 700;
-    font-style: italic;
-}
-
-
